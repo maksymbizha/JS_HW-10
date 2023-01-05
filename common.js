@@ -1,6 +1,6 @@
 /*  Перша  дія  */
 
-let arr =[];
+const arr =[];
 for (let i= 10; i <= 20; i++){
     arr.push(i);
 }
@@ -44,7 +44,7 @@ alert(`Сумма всіх цілих чисел від 1 до 15 = ${sum}`);
 /*  П'ята   дія  */
 
 number = 35;
- sum= 1;
+sum= 1;
 for(let i = 15; i <= number; i++) {
     sum= sum * i;
 }
@@ -72,7 +72,7 @@ alert(`Суму лише парних чисел в діапазоні від 30
 
 /*  Восьма дія  */
 
-let arrNew =[];
+const arrNew =[];
 for (let i= 100; i <= 200; i++){
     if(i % 3 === 0)
         arrNew.push(i);
@@ -84,11 +84,9 @@ alert(`Всі числа в діапазоні від 100 до 200 кратні 
 
 
 const naturalNumber = +prompt('Enter the number.');
-let arrNaturalNumber = [];
+const arrNaturalNumber = [];
 
-if(Number(naturalNumber)){
-
-
+if(Number(naturalNumber) && naturalNumber > 0){
 
     for (let i= 1; i <= naturalNumber; i++){
         if(naturalNumber % i === 0){
@@ -101,10 +99,9 @@ if(Number(naturalNumber)){
 
     /*  Дес'ята  дія  */
 
-    let arrDividers= []
+    const arrDividers= []
 
-    for (let i = 0; i < arrNaturalNumber.length; i++)
-    {
+    for (let i = 0; i < arrNaturalNumber.length; i++){
         if ((arrNaturalNumber[i] % 2) === 0)
         {
             const res = arrNaturalNumber[i];
