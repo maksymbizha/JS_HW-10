@@ -152,4 +152,4 @@ for (let i = 0; i < 11; i++) {
     result += '\n'
 
 }
-alert(`Таблиця множення : \n ${result}`);
+alert(`Таблиця множення : \n ${result}`)
